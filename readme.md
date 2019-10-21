@@ -24,6 +24,8 @@ The motor I chose was a Nidec 48F704K.   It seemed to have about the right specs
 
 ![](images/nidec-48F704K.jpg)  **$12.74 on ebay**
 
+**The motor takes short 3mm screws.**
+
 I went through several design iterations, first on the fan blade, and then also on the shroud. Here's a pic of an early prototype.  Notice the bench power supply to the left, the laptop with fusion360 running and my Prusa 3d printer in the background.  With this setup I was able to test the fan at various voltage and to monitor and measure the current consumption:
 
 ![](images/fan_development.jpg)
@@ -78,7 +80,9 @@ Finally, the Arduino sketch I am using is available [here](ino/).  In the future
 
 ## Summary
 
-I have mounted the fan in the master cabin.  I usse it every night, all night long. It is quiet, it hums nicely, and puts out volumnous amounts of air.   It is using about 0.7 amps ... slightly less than half the power of the cheap "standard" fan, and puts out about twice as much air.  I will check back in a year and see how it is handingling the wear and tear.
+I have mounted the fan in the master cabin.  I use it every night, all night long. It is quiet, it hums nicely, and puts out volumnous amounts of air.   It is using about 0.7 amps ... slightly less than half the power of the cheap "standard" fan, and puts out about twice as much air.  I will check back in a year and see how it is handingling the wear and tear.
+
+![](images/mounted_fan.jpg)
 
 I'm calling this a **SUCCESS!**
 
