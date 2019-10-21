@@ -9,9 +9,9 @@ Such fans for boats (and RVs) come in basically two genres:
 * super cheap fans, that aren't even worth the effort
 * expensive boutique fans that don't satisfy expectations
 
-Basically you can get cheap fans with brushed motors and cheap steel or plastic housings, or expensive ones that don't seem to me to be worth the money. If you are interested in more details, here's a link to my "survey of existing fans" page: [Survey of Existing Fans](survey.md)
+Basically you can get cheap fans with brushed motors and cheap steel or plastic housings, or expensive ones that don't seem to me to be worth the money. If you are interested in more details, here's a link to my "survey of existing fans" page: [Survey of Existing Fans](survey.md) where I cover mostly the "cons" of such fans.
 
-But now that I have a 3d printer I was able to design **my own fan**, and I think it came out pretty good.
+But now that I have a 3d printer I was able to design **my own fan**, and I think it came out pretty good!
 
 ![](images/the_fan.jpg)
 
@@ -26,11 +26,11 @@ The motor I chose was a Nidec 48F704K.   It seemed to have about the right specs
 
 **The motor takes short 3mm screws.**
 
-I went through several design iterations, first on the fan blade, and then also on the shroud. Here's a pic of an early prototype.  Notice the bench power supply to the left, the laptop with fusion360 running and my Prusa 3d printer in the background.  With this setup I was able to test the fan at various voltage and to monitor and measure the current consumption:
+I went through several design iterations, first on the fan blade, and then also on the shroud. Here's a pic of an early prototype.  Notice the bench power supply to the left, the laptop with fusion360 running and my Prusa 3d printer in the background.  With this setup I was able to test the fan at various voltages and to monitor and measure the current consumption:
 
 ![](images/fan_development.jpg)
 
-I was surprised at how much (negative) effect the shroud had on the performance.   I started with a heavy shroud that printed in one piece.  It took 11 hours to print, with supports!   That was for the birds!   I redesigned it (a) to be much thinner and less obtrusive to the airflow, and (b) so that it could be printed in an hour or two, though it needs assembly. 
+I was surprised at how much (negative) effect the shroud had on the performance.   I started with a heavy shroud that printed in one piece.  It took 11 hours to print, with supports!   That was for the birds!   I redesigned it  to be much thinner and less obtrusive to the airflow, and so that it could be printed in an hour or two, though it needs assembly. 
 
 I had already (quickly) learned that it was better to print the blade itself in pieces and assemble it.   Printing it in one piece took a long time (like 8-10 hours), and (b) did not allow for replacing a single blade should one break.
 
@@ -40,7 +40,7 @@ Let me also add that this is **NOT THE FINAL effort** in this matter!  I have pu
 
 All the STL files are in the [STL subdirectory](stl/).  I have provided the [Fusion 360 files](fusion/) as well.
 
-I print almost everything at **0.30mm layer heights**, in "draft" quality on the Prusa, except the blads, which I printed at the Prusa 0.20mm "quality" setting.
+I print almost everything at **0.30mm layer heights**, in "draft" quality on the Prusa, except the blades, which I printed at the Prusa 0.20mm "quality" setting.
 
 I try to orient all the parts so that they are strongest in the required directions.  For the blade, to minimize the amount of supports, I print them on edge, as shown below:
 
