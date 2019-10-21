@@ -113,7 +113,7 @@ void loop()
 {
     uint32_t now = millis();
     static uint32_t last_time = 0;
-    if (now > last_time + 5)    // every 5 ms
+    if (now > last_time)    // every ms
     {
         last_time = now;
         int inc = readEncoder();
