@@ -80,7 +80,7 @@ Finally, the Arduino sketch I am using is available [here](ino/).  In the future
 
 ## Summary
 
-I have mounted the fan in the master cabin.  I use it every night, all night long. It is quiet, it hums nicely, and puts out volumnous amounts of air.   It is using about 0.7 amps ... slightly less than half the power of the cheap "standard" fan, and puts out about twice as much air.  I will check back in a year and see how it is handingling the wear and tear.
+I have mounted the fan in the master cabin.  I use it every night, all night long. It is quiet, it hums nicely, and puts out volumnous amounts of air.   It is using about 0.7 amps ... slightly less than half the power of the cheap "standard" fan, and puts out about twice as much air.  I will check back in a year and see how it is handling the wear and tear.
 
 ![](images/mounted_fan.jpg)
 
