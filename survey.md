@@ -1,3 +1,4 @@
+
 # Survey of existing fans
 
 ## Not Recommended
