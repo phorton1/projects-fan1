@@ -1,4 +1,3 @@
-
 # Survey of existing fans
 
 ## Not Recommended
@@ -42,4 +41,3 @@ Finally, for completeness, there is one fan that I DO sort of recommend, if you 
 ![](images/endless_breeze.jpg)  **$110+**
 
 This fan is big, about 15"x15"x4" and is not really appropriate for mounting on a wall above a berth or in a small cabin, but it works well, is quiet, and seems like it will last forever, so it *may* be appropriate for a boat.   Definetely handy to have.
-
