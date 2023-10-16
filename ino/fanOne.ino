@@ -1,3 +1,4 @@
+
 // UI:
 //
 //  The fan remembers the last setting.
@@ -16,7 +17,7 @@
 
 #define MAX_FAN_LEVEL       79
 #define FAN_LEVEL_INC       4
-  
+
 #define PIN_ENCODER_A       A3      // rotary encoder input pin
 #define PIN_ENCODER_B       A5      // rotary encoder input pin
 #define PIN_BUTTON          6       // rotary encoder button pin
@@ -34,15 +35,15 @@ int readEncoder()
     int inc = 0;
     static unsigned char last_encoder_A = 0;
     unsigned char encoder_A = digitalRead(PIN_ENCODER_A);
-    unsigned char encoder_B = digitalRead(PIN_ENCODER_B);   
-        
+    unsigned char encoder_B = digitalRead(PIN_ENCODER_B);
+
     if (!encoder_A && last_encoder_A)
     {
         if (encoder_B)      // B is high so clockwise
             inc = FAN_LEVEL_INC;
         else                // B is low so counter-clockwise
             inc = -FAN_LEVEL_INC;
-    }   
+    }
     last_encoder_A = encoder_A;  // Store value of A for next time
     return inc;
 }
@@ -55,7 +56,7 @@ void setFanLevel(int level)
     if (pwm_value < 7) pwm_value = 7;
     // display(0,"  pwm_value=%d",pwm_value);
     analogWrite(PIN_PWM_OUT, pwm_value);
-    
+
 }
 
 
@@ -77,18 +78,18 @@ int recallFanLevel()
 
 
 
-void setup()  
+void setup()
 {
     // Serial.begin(115200);
     // delay(1000);
     // display(0,"fanTest.ino started",0);
-    
+
     pinMode(13,OUTPUT);
     pinMode(PIN_PWM_OUT, OUTPUT);
     pinMode(PIN_ENCODER_A, INPUT_PULLUP);
     pinMode(PIN_ENCODER_B, INPUT_PULLUP);
     pinMode(PIN_BUTTON, INPUT_PULLUP);
-    
+
     if (!digitalRead(PIN_BUTTON))
     {
         fan_level = 0;
@@ -103,13 +104,13 @@ void setup()
     }
     else
         fan_level = recallFanLevel();
-        
+
     setFanLevel(fan_level);
-} 
+}
 
 
 
-void loop()  
+void loop()
 {
     uint32_t now = millis();
     static uint32_t last_time = 0;
